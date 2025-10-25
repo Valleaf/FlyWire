@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Lead_MassConv_ErrorPrefix</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lead conversion error prefix</shortDescription>
+        <value>Lead conversion failed</value>
+    </labels>
+    <labels>
+        <fullName>Lead_MassConv_NotificationTypeDevName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom notification type DeveloperName</shortDescription>
+        <value>Lead_Mass_Conversion_Summary</value>
+    </labels>
+    <labels>
+        <fullName>Lead_MassConv_NoIds</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Lead Ids debug</shortDescription>
+        <value>No Lead Ids provided for conversion.</value>
+    </labels>
+    <labels>
+        <fullName>Lead_MassConv_NoLeadsAfterFilter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No leads to convert after filtering debug</shortDescription>
+        <value>No Leads to convert after filtering.</value>
+    </labels>
+    <labels>
+        <fullName>Lead_MassConv_SummaryTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notification title</shortDescription>
+        <value>Lead Mass Conversion Summary</value>
+    </labels>
+    <labels>
+        <fullName>Lead_MassConv_SummaryBody</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notification body summary</shortDescription>
+        <value>Total attempts: {0}
+Successes: {1}
+Failures: {2}</value>
+    </labels>
+    <labels>
+        <fullName>Lead_MassConv_SummaryFailures</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Notification failures line</shortDescription>
+        <value>Failed leads (first {0}): {1}</value>
+    </labels>
+</CustomLabels>
