@@ -13,7 +13,10 @@ private class AccountCountryNormalizationTest {
             TestDataFactory.createAccount('A6', 'Canada'),
             TestDataFactory.createAccount('A7', 'Fra')
         };
+
+        Test.startTest();
         insert accts;
+        Test.stopTest();
 
         Map<String, String> expected = new Map<String, String>{
             'A1' => 'United States of America',
@@ -38,7 +41,10 @@ private class AccountCountryNormalizationTest {
 
         a.ShippingCountry = 'U S A';
         b.ShippingCountry = 'UK'; // 
+        
+        Test.startTest();
         update new List<Account>{a, b};
+        Test.stopTest();
 
         Map<String, String> expected = new Map<String, String>{
             'B1' => 'United States of America',
@@ -59,7 +65,12 @@ private class AccountCountryNormalizationTest {
         Assert.isNull(a.ShippingCountry, 'Empty string should remain null after insert.');
 
         a.ShippingCountry = null;
+
+        
+        Test.startTest();
         update a;
+        Test.stopTest();
+
         a = [SELECT ShippingCountry FROM Account WHERE Id = :a.Id];
         Assert.isNull(a.ShippingCountry, 'Null should remain null after update.');
 
@@ -98,7 +109,9 @@ private class AccountCountryNormalizationTest {
             accts.add(TestDataFactory.createAccount('Mass_CA_' + i, 'Spain'));
         }
 
+        Test.startTest();
         insert accts;
+        Test.stopTest();
 
         // Verify results
         Integer usCount = 0, ukCount = 0, caCount = 0;

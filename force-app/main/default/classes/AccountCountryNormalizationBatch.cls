@@ -36,7 +36,11 @@ public without sharing class AccountCountryNormalizationBatch implements Databas
             }
         }
         if (!toUpdate.isEmpty()) {
-            update toUpdate;
+            try {
+                update toUpdate;
+            } catch (Exception e) {
+                System.debug(LoggingLevel.ERROR, 'AccountCountryNormalizationBatch: Failed to update normalized accounts: ' + e.getMessage());
+            }
         }
     }
 

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Lead Mass Convert Bypass</label>
+    <description>Allows users to bypass auto-conversion of Leads when Convert__c is checked.</description>
+</CustomPermission>
