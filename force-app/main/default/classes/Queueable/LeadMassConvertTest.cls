@@ -88,4 +88,19 @@ private class LeadMassConvertTest {
         }
         Assert.areEqual(LEAD_COUNT, converted, 'All 500 should be converted');
     }
+
+    @isTest
+    static void failureTest(){
+        // Empty conversion
+
+        Test.startTest();
+        System.enqueueJob(new LeadMassConvertQueueable(new List<Id>{null  }));
+        Test.stopTest();
+
+        Lead[] listOfLeads = [SELECT Id FROM Lead];
+        // Shoul be empty
+        Assert.areEqual(0, listOfLeads.size(), 'No leads should be created');
+       
+
+    }
 }

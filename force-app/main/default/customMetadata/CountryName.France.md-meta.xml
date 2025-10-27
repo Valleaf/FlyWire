@@ -4,6 +4,6 @@
     <protected>false</protected>
     <values>
         <field>Aliases__c</field>
-        <value xsi:type="xsd:string">France,FR,FRA</value>
+        <value xsi:type="xsd:string">FR;FRA</value>
     </values>
 </CustomMetadata>
