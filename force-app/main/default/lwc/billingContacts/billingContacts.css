@@ -1,0 +1,5 @@
+/* Limit height and allow vertical scrolling  */
+.tableContainer {
+  max-height: 40vh;
+  overflow-y: auto;
+}

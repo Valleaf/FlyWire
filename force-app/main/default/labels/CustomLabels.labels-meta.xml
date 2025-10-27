@@ -51,4 +51,116 @@ Failures: {2}</value>
         <shortDescription>Notification failures line</shortDescription>
         <value>Failed leads (first {0}): {1}</value>
     </labels>
+    <labels>
+        <fullName>BillingContacts_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Card title for Billing Contacts LWC</shortDescription>
+        <value>Billing Contacts</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_SearchLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search input label</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_SearchPlaceholder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search input placeholder</shortDescription>
+        <value>Search by name, email, phone</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Column_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column label: Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Column_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column label: Title</shortDescription>
+        <value>Title</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Column_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column label: Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Column_Phone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column label: Phone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Column_IsDirect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column label: Direct?</shortDescription>
+        <value>Direct?</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Column_Role</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column label: Role</shortDescription>
+        <value>Role</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Column_PrimaryAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Column label: Primary Account</shortDescription>
+        <value>Primary Account</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_EmptyState</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty state helper text</shortDescription>
+        <value>No billing contacts found.</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_QueryError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User-facing message when a query error occurs</shortDescription>
+        <value>Unable to fetch billing contacts due to a query error.</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_GenericError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User-facing message for unexpected errors</shortDescription>
+        <value>An unexpected error occurred while fetching billing contacts.</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Prev</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pagination previous button label</shortDescription>
+        <value>Prev</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Next</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pagination next button label</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>BillingContacts_Page</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pagination page label prefix</shortDescription>
+        <value>Page</value>
+    </labels>
 </CustomLabels>
